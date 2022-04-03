@@ -4,7 +4,7 @@ let myChart
 // documentatie 
 // https://www.chartjs.org/docs/latest/charts/scatter.html
 
-export function createChart(columns){
+export function createChart(){
     const config = {
         type: 'scatter',
         data: {},

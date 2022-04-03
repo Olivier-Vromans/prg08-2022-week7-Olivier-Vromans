@@ -49,7 +49,6 @@ function deleteNull(data) {
 
     //Create Chart
     createChart()
-
     // pass the data to the showdata function
     showData(data)
     // pass the data to a neural network
@@ -111,7 +110,7 @@ async function createNeuralNetwork(data) {
 
     // train the neural network
     nn.normalizeData()
-    nn.train({ epochs: 10 }, () => trainingFinished())
+    nn.train({ epochs: 30 }, () => trainingFinished())
 }
 
 
