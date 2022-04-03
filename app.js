@@ -110,7 +110,7 @@ async function createNeuralNetwork(data) {
 
     // train the neural network
     nn.normalizeData()
-    nn.train({ epochs: 30 }, () => trainingFinished())
+    nn.train({ epochs: 10 }, () => trainingFinished())
 }
 
 
